@@ -1,0 +1,38 @@
+folder - Angular_Basics_3Hours
+ngmodel give u error if u do not imports forms in appmodules
+ngmodel bind properties means it will show field from backend in forms(Two Way Binding)
+for navigate use route
+Router enabled to dissabled other component from app component html
+put ** in path for error page
+
+
+folder structure
+- welcome
+-login
+-error
+-listTodos
+-menu
+-footer
+-logout
+
+navigate one page to another
+added router in constructer
+added navigate and put nevigate to NameError
+on which page u r currently and want that navigate when enter
+
+
+//Future
+// - No Navigation Menu and Footer
+// - Formatting - Bootstrap
+// - No Security for Menus
+// - Hardcoded Logic in the TodoList and Login Components
+
+// - Remaining Functionality - Edit, Delete, Add
+// - Spring Boot
+// - Spring Security
+
+
+service inject in constructor so that we user in global
+
+
+//securing by route gaurd

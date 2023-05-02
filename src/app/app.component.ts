@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_Basics_3Hours';
+  message='Ankit Learning';
+
 }

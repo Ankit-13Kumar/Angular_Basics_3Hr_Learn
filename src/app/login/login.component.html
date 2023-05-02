@@ -1,0 +1,15 @@
+<!-- Interpolation & by using ng attribute we showing invalid -->
+<h1>Login !</h1>
+<div class="container">
+<div class="alert alert-warning" *ngIf="InvalidLogin">{{errorMessage}}</div>
+<div  class="container">
+  User Name:<input type="text" name="username" [(ngModel)]="username">
+  Password:<input type="password" name="password" [(ngModel)]="password">
+
+  <!--
+    //interpolitation
+    User Name:{{username}} -->
+
+  <button (click)="handleLogin()" class="btn btn-success">Login</button>
+</div>
+</div>
